@@ -14,6 +14,10 @@
 		2D9C16FD28B8115C0046D7C8 /* Task_26_elizbar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D9C16FB28B8115C0046D7C8 /* Task_26_elizbar.xcdatamodeld */; };
 		2D9C16FF28B8115F0046D7C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9C16FE28B8115F0046D7C8 /* Assets.xcassets */; };
 		2D9C170228B8115F0046D7C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9C170028B8115F0046D7C8 /* LaunchScreen.storyboard */; };
+		2D9C170A28B812EA0046D7C8 /* NoteCreateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9C170928B812EA0046D7C8 /* NoteCreateVC.swift */; };
+		2D9C170C28B813360046D7C8 /* NotesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9C170B28B813360046D7C8 /* NotesCell.swift */; };
+		2D9C171428B81E1C0046D7C8 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9C171228B81E1C0046D7C8 /* Note+CoreDataClass.swift */; };
+		2D9C171528B81E1C0046D7C8 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9C171328B81E1C0046D7C8 /* Note+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		2D9C16FE28B8115F0046D7C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D9C170128B8115F0046D7C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D9C170328B8115F0046D7C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D9C170928B812EA0046D7C8 /* NoteCreateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCreateVC.swift; sourceTree = "<group>"; };
+		2D9C170B28B813360046D7C8 /* NotesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesCell.swift; sourceTree = "<group>"; };
+		2D9C171228B81E1C0046D7C8 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2D9C171328B81E1C0046D7C8 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 		2D9C16F128B8115C0046D7C8 /* Task_26_elizbar */ = {
 			isa = PBXGroup;
 			children = (
+				2D9C171128B816760046D7C8 /* NoteItem */,
 				2D9C16F228B8115C0046D7C8 /* AppDelegate.swift */,
 				2D9C16F428B8115C0046D7C8 /* SceneDelegate.swift */,
 				2D9C16F628B8115C0046D7C8 /* ViewController.swift */,
@@ -66,8 +75,19 @@
 				2D9C170028B8115F0046D7C8 /* LaunchScreen.storyboard */,
 				2D9C170328B8115F0046D7C8 /* Info.plist */,
 				2D9C16FB28B8115C0046D7C8 /* Task_26_elizbar.xcdatamodeld */,
+				2D9C170928B812EA0046D7C8 /* NoteCreateVC.swift */,
+				2D9C170B28B813360046D7C8 /* NotesCell.swift */,
 			);
 			path = Task_26_elizbar;
+			sourceTree = "<group>";
+		};
+		2D9C171128B816760046D7C8 /* NoteItem */ = {
+			isa = PBXGroup;
+			children = (
+				2D9C171228B81E1C0046D7C8 /* Note+CoreDataClass.swift */,
+				2D9C171328B81E1C0046D7C8 /* Note+CoreDataProperties.swift */,
+			);
+			path = NoteItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +162,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D9C16F728B8115C0046D7C8 /* ViewController.swift in Sources */,
+				2D9C171528B81E1C0046D7C8 /* Note+CoreDataProperties.swift in Sources */,
+				2D9C171428B81E1C0046D7C8 /* Note+CoreDataClass.swift in Sources */,
 				2D9C16F328B8115C0046D7C8 /* AppDelegate.swift in Sources */,
 				2D9C16FD28B8115C0046D7C8 /* Task_26_elizbar.xcdatamodeld in Sources */,
+				2D9C170C28B813360046D7C8 /* NotesCell.swift in Sources */,
+				2D9C170A28B812EA0046D7C8 /* NoteCreateVC.swift in Sources */,
 				2D9C16F528B8115C0046D7C8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
